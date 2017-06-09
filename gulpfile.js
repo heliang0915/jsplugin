@@ -8,7 +8,8 @@ var path=require('path');
 
 gulp.task('sass',function(){
     gulp.src(path.join(__dirname,'/sass/*.scss')).pipe(sass({
-        outputStyle:"expanded"
+        // outputStyle:"expanded"
+        outputStyle:"compressed"
     }).on('error',function (err) {
         console.log(err);
     })).pipe(gulp.dest(path.join(__dirname,'/css/')));
