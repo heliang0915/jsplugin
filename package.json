@@ -4,7 +4,7 @@
   "description": "jsplugin",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/www"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,17 @@
   },
   "homepage": "https://github.com/heliang0915/jsplugin#readme",
   "dependencies": {
+    "debug": "^2.6.3",
+    "express": "^4.15.2",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-px2rem": "^1.0.11",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-wrap": "^0.13.0",
+    "gulp.spritesmith": "^6.9.0",
+    "vinyl-buffer": "^1.0.1"
   }
 }

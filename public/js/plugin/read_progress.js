@@ -1,3 +1,7 @@
+/**
+ * 显示阅读进度插件
+ * @type {[type]}
+ */
 var section=document.createElement('section');
 section.className="progress_bar";
 document.body.appendChild(section);
@@ -12,7 +16,3 @@ window.onscroll=function(e) {
     progress_bar.style.width = p;
     // console.log(scrollTop);
 }
-
-
-
-

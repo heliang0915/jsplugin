@@ -1,2 +1,2 @@
-# jsplugin
-jsplugin
+##jsplugin
+javaScript总结插件
